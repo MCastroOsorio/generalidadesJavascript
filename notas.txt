@@ -1,0 +1,6 @@
+Condicionales: Estructura de decisión que permite tomar una acción bajo una condición dada (operadores lógicos, un resultado booleano: true or false) 
+
+* Simple (if)
+* Compuesto (if-else)
+* Anidado (if-else, if)
+* Multiple (switch)

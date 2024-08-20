@@ -1,7 +1,6 @@
 /*Datos de salida */
 //console.log()
 
-
 /* Datos de entrada*/
 //prompt("Ingrese su nombre: "); //Scanner para capturar datos
 
@@ -20,7 +19,7 @@ var numeroDos = parseInt(prompt('Ingrese un numero: '));
 console.log(numeroUno + numeroDos); /*Concatenación (el mas concatena o suma) el resto de los simbolos sí hace operación matematica*/
 /*Todo dato ingresado por teclado es por defecto un String*/
 /* Parseo de datos (conversion de datos) es mejor parsear de forma individual
-parseInt= convertir tipo de dato texto a un en entero*/ 
+parseInt= convertir tipo de dato texto a un en entero*/
 
 //Segunda forma de parseo
 /*var numeroUno = Number(prompt('Ingrese un numero: '));
@@ -38,11 +37,10 @@ console.log(parseInt(numeroUno) + parseInt(numeroDos));
 
 //Let: Variables que no permiten sobre-escribir nada en la variable pero si de contenido
 
-//Const no permiten la sobre escritura de la variable ni de contenido 
+//Const no permiten la sobre escritura de la variable ni de contenido
 
-//Las variables de tipo let y const son muy utilizadas hoy en día 
+//Las variables de tipo let y const son muy utilizadas hoy en día
 /* */
-
 
 /*Aritmeticos:
 suma: valorUno + valorDos(+)
@@ -59,6 +57,24 @@ Logicos: (Generan un resultado boolenao: true or false)
 ===  -> Comparacion estricta
 !=   -> Negacion simple
 !==  -> Negacion estricta
-*/
 
-console.log(3<5);
+console.log(3 < 5);*/
+
+//Simple
+/*let edad = 18
+if(edad >= 18){
+    console.log('Es mayor de edad')
+} else {
+    console.log('No es mayor de edad')
+}*/
+
+//Compuesto
+let edad = 18
+if(edad > 18){
+    console.log('Es mayor de edad')
+} else if(edad == 18){
+    console.log('Apenas cumplio la mayoria de edad');
+} else {
+    console.log('No hay datos')
+}
+/* */
